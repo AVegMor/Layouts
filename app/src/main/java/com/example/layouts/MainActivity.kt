@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun BoxLayout(modifier: Modifier = Modifier) {
+fun BoxLayout() {
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Box(
             modifier = Modifier
@@ -53,7 +53,7 @@ fun BoxLayout(modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun RowLayout(modifier: Modifier = Modifier) {
+fun RowLayout() {
     Row(
         modifier = Modifier.fillMaxSize(),
         horizontalArrangement = Arrangement.SpaceEvenly,
@@ -66,7 +66,7 @@ fun RowLayout(modifier: Modifier = Modifier) {
     }
 }
 @Composable
-fun ColumnLayout(modifier: Modifier = Modifier) {
+fun ColumnLayout() {
     Column(
         modifier = Modifier.fillMaxSize(), verticalArrangement = Arrangement.SpaceBetween, horizontalAlignment = Alignment.End
     ) {
